@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(242, 176, 52);
+  }
+  
+  h1 {
+    color: brown;
+    font-style: italic;
+  }
+ 
+
+  
+  #title {
+    margin-left: 3rem;
+  }
+ 
+ 
+  
+  .heading {
+    
+    color: white;
+    background-color: brown;
+    margin:0 auto;
+    font-weight: bold;
+    border-radius: 1rem;
+    
+    
+  }
+  
+  .info {
+    float:center;
+    display: inline-block;
+    padding: 5px;
+    text-decoration: underline;
+    
+    
+  }
+
+  
+  .info > span {
+    color: brown;
+    font-weight: bold;
+    float: center;
+  }
+  .Afiyet {
+    font-size: 1.5rem;
+    float: right;
+    margin-right: 15rem;
+    font-weight: bold;
+    font-family: "Roboto Mono", monospace;
+  }
+  @media (max-width:1100px) {
+    .Afiyet {
+      margin-right: 4rem;
+    }
+    #title {
+      margin-left: 1rem;
+    }
+  }
